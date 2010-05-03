@@ -1,0 +1,15 @@
+Script to convert avi and mkv to mp4 playable on Android and iPhone. 
+
+== Instructions ==
+
+* Download and install HandBrakeCLI - http://handbrake.fr/downloads2.php
+* Edit script with directory where you will place movies to be converted
+* Place script in /etc/cron.daily/
+* Make script executable - sudo chmod +x portable_media_converter.sh
+* Place any avi or mkv files you want converted in dir configured in step 2
+* Enjoy
+
+== Author ==
+
+Kristian Olsson
+mediaconverter@kasa.nu
