@@ -7,6 +7,9 @@ Script to convert avi and mkv to mp4 playable on Android and iPhone.
 * Make script executable -> "chmod +x portable_media_converter.sh"
 * Add something like the following to crontab (will execute nightly at 2am) -> "0 2 * * * /script/portable_media_converter.sh > /dev/null 2>&1"
 * Place any avi or mkv files you want converted in dir configured in step 2
+* Edit $mediadir and $webdir in rss.php and place rss.php in your media dir
+* Create a symlink from your www dir to your mediadir -> "ln -s /media/android/ mymedia"
+* Setup your favourite podcast client (I use ACast on Android) to fetch your feed -> http://yoursite/mymedia/rss.php
 * Enjoy
 
 == Author ==
